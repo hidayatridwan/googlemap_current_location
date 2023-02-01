@@ -61,7 +61,7 @@ class MapScreen extends StatelessWidget {
                     _controller.complete(controller);
                   });
             }
-            return const SizedBox();
+            return const Center(child: CircularProgressIndicator(),);
             // return GoogleMap(
             //     initialCameraPosition: state.location,
             //     markers: Set<Marker>.of(state.markers),
